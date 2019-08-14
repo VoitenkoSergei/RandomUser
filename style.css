@@ -1,0 +1,80 @@
+body{
+	user-select: none;
+	position: relative;
+}
+table{
+	cursor: pointer;
+	table-layout: fixed;
+	width: 100%;
+}
+th, td{
+	border:none !important;
+}
+img{
+	border-radius: 50%;
+	border: 3px solid #00a8e1;
+}
+h1{
+	text-align: center;
+	background: darkcyan;
+}
+h3{
+	text-align: center;
+	color: gray;
+}
+h6{
+	text-align: center;
+}
+.name{
+	font-size: 1.3em;
+	font-weight: bold;
+	color: yellowgreen;
+}
+.main i{
+	transition: color .5s;
+}
+.main:hover i{
+	 color: lightsalmon;
+}
+.fas{
+	color:gray;
+}
+.fa-male{
+	color: dimgrey;
+}
+.fa-female{
+	color: chocolate;
+}
+.info{
+	text-align: right;
+}
+table th:first-child,
+table th:last-child {
+	width: 80px;
+}
+.reg{
+	background-color: salmon;
+	border-radius: 15%;
+}
+.content{
+	position: relative;
+	top: 10%;
+	padding: 20px;
+	width: 35%;
+	background: #fff;
+	display: inline-block;
+	transition: all 2s linear;
+}
+#box{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: rgba(128, 128, 128, 0.6);
+	text-align: center;
+}
+.hidden{
+	display: none;
+}

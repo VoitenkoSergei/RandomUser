@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>LightAcademy</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="shourtcut icon" type="image/png" href="http://cdn.onlinewebfonts.com/svg/img_311846.png">
+</head>
+<body>
+	<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>LIGHT ACADEMY. FRONT END‘19</h1>
+		</div>
+	</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="input-group flex-nowrap">
+					<div class="input-group-prepend">
+						<span class="input-group-text" id="addon-wrapping">Search</span>
+					</div>
+					<input type="text" id="search" class="form-control" placeholder="Firstname" aria-label="Username" aria-describedby="addon-wrapping">
+				</div>
+			</div>
+			<div class="col-md-4">
+			<h3>User List</h3>
+				<div class="hidden" id="box">
+					<div class="content">
+						<div class="close"><span id="close"><i class="fas fa-times-circle"></i></span></div>
+						<canvas id="myChart" width="400" height="400"></canvas>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 info">
+				<button type="button" id="chart" class="btn btn-info">Chart Info</button>
+			</div>
+		</div>
+		<div class="row">
+			<div id="root" class="col-sm-12"></div>
+		</div>
+	</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script>
+<script src="script.js"></script>
+</html>
